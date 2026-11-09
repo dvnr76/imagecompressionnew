@@ -8,7 +8,8 @@ const execAsync = promisify(exec);
 
 // === CONFIGURATION ===
 const inputDir = './23Allphotosnew';
-const outputDir = './23Allphotosnew_output';
+// const outputDir = './23Allphotosnew_output';
+const outputDir = './originaloutput';
 const targetSize = 250;
 const useCWebP = true; // Set false to skip cwebp
 
